@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang = "en">
+<style>
+  table, td, th {
+    border: 1px solid black;
+  }
+  td, th {
+    width: 60px;
+      height: 60px;
+      }
+div
+{
+  background-image: url('back1.jpg');
+  background-size: 100% 100%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+</style>
+
+<head>
+<title>CHESS BITCHES</title>
+</head>
+<body>
+
+  <h2>Let the borders collapse:</h2>
+<div>
+  <table>
+    <tr>
+      <th> <img src="download-1.png" id = "a1" onclick = "isFree()" width = 60 height = 60> </th>
+      <th ><img id = "a2"></th>
+      <th><img id = "a3"> </th>
+      <th> <img id = "a4"></th>
+      <th><img id = "a5"> </th>
+      <th> <img id = "a6"></th>
+      <th><img id = "a7"> </th>
+      <th><img id = "a8"> </th>
+    </tr>
+    <tr>
+      <td> <img id = "b1"></td>
+      <td> <img id = "b2"></td>
+      <td> <img id = "b3"></td>
+      <td> <img id = "b4"></td>
+      <td> <img id = "b5"></td>
+      <td><img id = "b6"> </td>
+      <td> <img id = "b7"></td>
+      <td> <img id = "b8"></td>
+    </tr>
+    <tr>
+      <td> <img id = "c2"></td>
+      <td> <img id = "c2"></td>
+      <td><img id = "c3"> </td>
+      <td><img id = "c4"></td>
+      <td><img id = "c5"> </td>
+      <td> <img id = "c6"></td>
+      <td> <img id = "c7"></td>
+      <td> <img id = "c8"></td>
+    </tr>
+    <tr>
+      <td> <img id = "d1"></td>
+      <td> <img id = "d2"></td>
+      <td> <img id = "d3"></td>
+      <td> <img id = "d4"></td>
+      <td> <img id = "d5"></td>
+      <td> <img id = "d6"></td>
+      <td> <img id = "d7"></td>
+      <td> <img id = "d8"></td>
+    </tr>
+    <tr>
+      <td> <img id = "e1"></td>
+      <td> <img id = "e2"></td>
+      <td> <img id = "e3"></td>
+      <td> <img id = "e4"></td>
+      <td> <img id = "e5"></td>
+      <td> <img id = "e6"></td>
+      <td> <img id = "e7"></td>
+      <td> <img id = "e8"></td>
+    </tr>
+    <tr>
+      <td> <img id = "f1"></td>
+      <td> <img id = "f2"></td>
+      <td> <img id = "f3"></td>
+      <td> <img id = "f4"></td>
+      <td> <img id = "f5"></td>
+      <td> <img id = "f6"></td>
+      <td> <img id = "f7"></td>
+      <td> <img id = "f8"></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </table>
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+</div>
+<script>
+var as = 0;
+function isFree(){
+  document.getElementById(a1).src = "whitebishop.jpg";
+}
+
+
+
+</script>
+</body>
+
+</html>
